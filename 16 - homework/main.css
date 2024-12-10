@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Nunito+Sans:wght@300;400;500;600;700;900&family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dominator {
+    display: flex;
+    margin-left: 300px;
+    width: 100%;
+}
+
+.container {
+    background:#1A142D;
+    width: 310px;
+    height: 630px;
+    margin-top: 64px;
+    margin-left: 50px;    
+}
+
+.container__img img {
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+.container__img .container_title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.51px;
+    color:#FFFFFF;
+    margin-left: 30px;
+}
+
+.container__img .container_items1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+
+.container__img .container_items2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.container__img .i1::after {
+    content: ' 15.08.1986';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+}
+
+.container__img .i2::after {
+    content: ' Winterfell, Westeros';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+}
+
+.container__img .icons {
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-left: 90px;
+}
+
+.container__img i {
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.container_texts {
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.container_paragraph {
+    width: 467px;
+    height: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+}
+
+.container__texts-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.container_text .container_texts-items {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;  
+}
+.container_carrier {
+    margin-top: 20px;   
+}
+
+.container_carrier .i11::before {
+    content: 'Lord Commander ';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;  
+    color: rgb(255, 0, 0);
+}
+.container_carrier .i12::before {
+    content: 'Warden of the North ';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;  
+    color: rgb(255, 0, 0);
+}
+.container_carrier .i13::before {
+    content: 'Brother ';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;  
+    color: rgb(255, 0, 0);
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px; 
+}
+.container_texts-title1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.container_carrier .i14::before {
+    content: 'Winterfell State University ';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;  
+    color: rgb(255, 0, 0);
+}
+.container_carrier .i15::before {
+    content: 'Winterfell High School ';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;  
+    color: rgb(255, 0, 0);
+}
